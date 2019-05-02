@@ -1,0 +1,11 @@
+/* 
+   JPEGManagerError.strings
+   HereIAm
+
+   Created by Michael Rockhold on 1/26/10.
+   Copyright 2010 The Rockhold Company. All rights reserved.
+ */
+
+"400" = "Image type not supported. GIF, JPG, & PNG only";
+"Image type not supported. GIF, JPG, & PNG only" = "Image type not supported. GIF, JPG, & PNG only";
+

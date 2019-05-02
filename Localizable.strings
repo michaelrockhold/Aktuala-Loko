@@ -1,0 +1,29 @@
+/* 
+   Localizable.strings
+   HereIAm
+
+   Created by Michael Rockhold on 1/26/10.
+   Copyright 2010 The Rockhold Company. All rights reserved.
+ */
+
+"OSMSoftwareURL" = "OpenStreetMap @ http://www.openstreetmap.org";
+"OSMCopyright" = "OpenStreetMap data is licensed under the Creative Commons Attribution-Share Alike 2.0 Generic License";
+"mainmaptitle" = "Main Map";
+
+"characterCountFmt" = "%d characters left";
+
+/* settings view section headers */
+"picturepostingserviceheader" = "Picture Posting Service";
+"twittercredsheader" = "Twitter Credentials";
+"facebookheader" = "Facebook Account";
+"twitterheader" = "Twitter Account";
+"mapserviceheader" = "Map Service";
+
+"facebooklogin" = "Facebook Login";
+
+/* error messages */
+"Dismiss" = "Dismiss";
+"posting" = "Error posting map status update";
+"getting map" = "Error getting map image";
+"sending map" = "Error sending map image";
+"received unexpected response from server" = "Received unexpected response from server";

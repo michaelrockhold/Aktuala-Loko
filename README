@@ -1,0 +1,24 @@
+A roadmap to the source files of Aktuala Loko (nee "Here-I-Am")
+
+The Aktuala Loko application consists of a root application project Here-I-Am.xcodeproj, and six static libraries upon which the application depends. For the purposes of showing off my coding skill, I will quickly outline what you'll find in each:
+
+Here-I-Am:
+    The main application; this is entirely my own work. The 'PicturePosting' family of classes are the great mass of the code. They are responsible for handling uploading the graphics to the user's choice of social networking service, Facebook, Twitter/TwitPics, or Posterous.
+
+RCException:
+    Mine, but not very interesting.
+
+OAuthConsumerLib
+    Not mine, though somewhat modified from the original, by Jon Crosby of Kaboomerang, LLC.
+
+JPEGManger:
+    This was originally Matthias Wandel's public domain jhead program, but it underwent a good deal of transformation to expose its functionality as a library in a form convenient for Objective-C clients.
+
+RCEmbeddedWebClientLib:
+    This started life as Facebook's Objective-C client library, which Facebook was good enough to release in source form, with a conveniently permissive license. In the end, I mostly found that it was valuable primarily as documentation of the way a well-behaved Facebook client ought to behave. I modified it very sustantially, particularly in refactoring it in such a way that I could use it for Twitter as well as FB.
+
+Facebook-RC:
+    The Facebook-specific bits that were abstracted from RCEmbeddedWebClientLib
+
+TWConnect:
+    The Twitter-specific analogue to Facebook-RC
